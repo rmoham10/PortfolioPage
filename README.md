@@ -1,25 +1,23 @@
-#Portfolio Web Application
+# Portfolio Web Application
 
-##Description
+## Description
+A personal portfolio web application built using **vanilla HTML, CSS, and JavaScript** to showcase skills, experience, projects, and contact information. The project demonstrates responsive design, dynamic navigation, interactive UI elements, and static file serving without any frameworks or libraries.
 
-  A personal portfolio website built using vanilla HTML, CSS, and JavaScript to showcase skills, experience, projects, and contact information. 
-  This project demonstrates responsive design, dynamic navigation, and interactive frontend elements without using any frameworks or libraries.
-  The website includes sections for profile, about, experience, projects, and contact, along with a downloadable CV and social media links.
+Users can navigate through sections such as Profile, About, Experience, Projects, and Contact, view detailed information, download the CV, and access social media links.
 
-##Features
+## Features
+- Responsive navigation bar for desktop and mobile (hamburger menu)
+- Smooth scrolling to different page sections
+- Downloadable CV button for easy access
+- Social media links for LinkedIn and GitHub
+- Interactive buttons with hover effects
+- Profile, About, Experience, Projects, and Contact sections
+- Modern and clean UI using custom CSS and Google Fonts
+- Static file serving for images, icons, and PDF
 
-  -Fully responsive design with desktop and mobile-friendly layouts
-  -Hamburger menu for mobile navigation
-  -Smooth scrolling to page sections
-  -Interactive buttons for CV download and contact navigation
-  -Social media integration (LinkedIn and GitHub)
-  -Styled sections with profile picture, experience, and education highlights
-  -Clean and modern UI design using custom CSS and Google Fonts
-
-##Tech Stack
-
-  -HTML5
-  -CSS3 (including media queries for responsiveness)
-  -JavaScript
-  -Google Fonts
-  -Static assets (images, icons, PDF)
+## Tech Stack
+- HTML5
+- CSS3 (with media queries)
+- JavaScript
+- Google Fonts
+- Static assets (images, PDF, icons)
