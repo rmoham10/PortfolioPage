@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Riyaz Mohammad</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile" >Profile</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Riyaz Mohammad</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+        
+            </div>
+            <div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/riyaz.png" alt="Riyaz Mohammad Proifile Picture" class="about-pic"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello, I'm</p>
+            <h1 class="title">Riyaz Mohammad</h1>
+            <p class="section__text__p2">FullStack developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/riyazMohammad.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://linkedin.com/in/riyaz-mohammad-ab086425b/"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img src="./assets/linkedin.png" 
+                        alt="My LinkedIn profile" 
+                        class="icon">
+                </a>
+                <a href="https://github.com/rmoham10/"
+                target="_blank"
+                rel="noopener noreferrer">
+                    <img src="./assets/github.png" 
+                        alt="My Github profile" 
+                        class="icon">
+                </a>                 
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <p class="section__text__p1">Computer Science graduate with experience in full-stack development, backend systems, and database-driven applications. 
+            <br/>I have practical experience with routing, API integration, deployment workflows, and version control using Git.
+            <br/>Practical experience in building and deploying dynamic web applications.</p>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Academic Experience</h3>
+                        <p>2+ years <br/>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>Honours Bachelor's of science<br/>Computer Science<br/>Sep 2022 - Dec 2025</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p><strong>Academic Learning:</strong> C, C++, Java, Object Oriented Programming, Database Management, 
+                        Data Structures, Cloud Computing, Operating System, Big Data, Algorithm Design and 
+                        Analysis, Computer Architecture & Networking, Web Health Informatics, Software Engineering.
+                    </p>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">Experience</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelor's degree: Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelor's degree: Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.jpg" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelor's degree: Computer Science</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
