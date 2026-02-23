@@ -20,6 +20,17 @@ p{
     color: rgb(85, 85, 85);
 }
 
+img, .about-pic, .icon {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-container,
+.about-containers,
+.about-details-container{
+    flex-wrap: wrap;
+}
+
 /*Transition*/
 
 a,
@@ -308,12 +319,14 @@ section{
     width: 400px;
     margin: auto 0;
 }
-
+#experience{
+    height: 75vh;
+}
 #projects{  
     justify-content: center;
     gap: 5rem;
     margin-top: 3rem;
-    height: 100vh;
+    height: 85vh;
 }
 #projects .title{
     margin-top: 2rem;
