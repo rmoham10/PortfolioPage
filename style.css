@@ -167,11 +167,11 @@ a:hover{
 /* Sections */
 
 section{
-    padding-top: 1vh;
-    height: 96vh;
+    padding-top: 4vh;
+    /* Change 'height' to 'min-height' to allow growth */
+    min-height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
-    min-height: fit-content;
     scroll-margin-top: 17vh;
 }
 
@@ -186,7 +186,7 @@ section{
     justify-content: center;
     gap: 5rem;
     margin-top: 3rem;
-    height: 100vh;
+    min-height: 90vh; /* Changed from height: 100vh */
 }
 
 .section__pic-container{
@@ -354,4 +354,11 @@ section{
 
 #contact {
   height: 75vh;
+}
+
+#contact .details-container p, 
+#contact .details-container a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
