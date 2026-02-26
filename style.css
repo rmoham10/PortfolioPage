@@ -77,7 +77,7 @@ a:hover{
 }
 
 .logo{
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 .logo:hover{
@@ -191,7 +191,7 @@ section{
 
 .section__pic-container{
     display: flex;
-    height: 400px;
+    height: 350px;
     width: 400px;
     margin: auto 0;
 }
@@ -212,11 +212,13 @@ section{
 .section__text__p2  {
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    animation: font-highlight 1s linear infinite alternate-reverse; 
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
+    animation: font-highlight 1s linear infinite alternate-reverse; 
 }
 
 #socials-container{
@@ -361,4 +363,10 @@ section{
     word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
+}
+
+@keyframes font-highlight{
+    0%{color: black;}
+    50%{color: brown;}
+    100%{color: lightcoral;}
 }
