@@ -38,6 +38,7 @@ a,
     transition: all 300ms ease;
 }
 
+
 /*Desktop Nav*/
 
 nav,
@@ -78,6 +79,7 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    color: brown;
 }
 
 .logo:hover{
@@ -251,15 +253,17 @@ section{
     border-radius: 2rem;
 }
 
+.btn.clicked{
+    background-color: red !important;
+}
 .btn-color-1{
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: brown 0.1rem solid;
     background: none;
 }
 
 .btn-color-2{
-    border: rgb(53, 53, 53) 0.1rem solid;
-    background: black;
-    color: white;
+    border: brown 0.1rem solid;
+    background: none;
 }
 
 .btn-color-1:hover,
@@ -274,6 +278,10 @@ section{
     gap: 1rem;
 }
 
+.modeToggle{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+}
 /* About */
 
 #about{
@@ -299,6 +307,7 @@ section{
 .about-pic{
     border-radius: 2rem;
     background-size: 5rem;
+    border: 1px solid brown;
 }
 
 .details-container{
@@ -307,7 +316,7 @@ section{
     background: white;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border-color: brown;
     text-align: center;
 }
 
