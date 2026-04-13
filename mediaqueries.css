@@ -55,7 +55,7 @@
         box-sizing: border-box;
     }
     
-    #projects, #experience, #contact {
+    #projects, #deployed-apps, #experience, #contact {
         height: auto;
     }
 }

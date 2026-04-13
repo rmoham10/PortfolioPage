@@ -139,7 +139,7 @@ a:hover{
 }
 
 .menu-links.open{
-    max-height: 300px;
+    max-height: 400px;
 }
 
 .hamburger-icon.open span:first-child{
@@ -282,7 +282,6 @@ section{
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
 }
-/* About */
 
 #about{
     position: relative;
@@ -372,7 +371,7 @@ section{
 }
 
 .section__text__p1{
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
 }
 
 
